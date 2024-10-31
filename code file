@@ -1,20 +1,32 @@
 /* Here is the code for To-Do-List...code is separete for HTML, CSS, JavaSript */
 /*HTML Code Goes here*/
 
-<div id="myDIV" class="header">
-    <h2>My To Do List</h2>
-    <input type="text" id="myInput" placeholder="Title...">
-    <span onclick="newElement()" class="addBtn">Add</span>
-</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
-<ul id="myUL">
-    <li>Hit the gym</li>
-    <li class="checked">Pay bills</li>
-    <li>Meet George</li>
-    <li>Buy eggs</li>
-    <li>Read a book</li>
-    <li>Organize office</li>
-</ul>
+        <div id="myDIV" class="header">
+            <h2>My To Do List</h2>
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+        
+        <ul id="myUL">
+            <li>Hit the gym</li>
+            <li class="checked">Pay bills</li>
+            <li>Meet George</li>
+            <li>Buy eggs</li>
+            <li>Read a book</li>
+            <li>Organize office</li>
+        </ul>
+        
+<script src="script.js"></script>
+    </body>
+</html>
 
 /*CSS Code goes Here*/
 
@@ -93,7 +105,7 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-    background-color: #f44336;
+    background-color: #fcba03;
     padding: 30px 40px;
     color: white;
     text-align: center;
